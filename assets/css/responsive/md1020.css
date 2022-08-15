@@ -1,0 +1,22 @@
+@media screen and (min-width: 1020px) {
+  .contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .contenedores{
+    background-color: blueviolet;
+    padding: 15%;
+    outline: 4px solid black;
+    text-align: center;
+    box-shadow: 4px 4px 20px 1px hsl(0, 0%, 4%);
+  }
+  .contenedores:hover{
+    transform: scale(.98);
+    transition: transform 1s;
+  }
+}

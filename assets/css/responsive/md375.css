@@ -1,0 +1,8 @@
+@media screen and (min-width: 375px) {
+  .contenedor{
+    background-color: rgb(43, 79, 103);
+  }
+  .contenedores{
+    background-color: rgb(85, 118, 14);
+  }
+}

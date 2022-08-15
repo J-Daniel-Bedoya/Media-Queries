@@ -1,0 +1,228 @@
+/* --Reset-- */
+*,*::before, *::after{
+  box-sizing: border-box;
+}
+html{
+  font-size: 14px;
+}
+body{
+  font-family: sans-serif;
+  margin: 0;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 12%);
+}
+h1,h2,i,p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img{
+  display: block;
+}
+/* --Header-- */
+.header{
+  text-shadow: 3px 3px 10px rgb(159, 158, 158);
+  color: aliceblue;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 2rem;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+.contenedor{ 
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: .5rem;
+}
+.contenedores{
+ padding: 6rem;
+ background-image: url("https://picsum.photos/200/300");
+ background-repeat: no-repeat;
+ background-position: center ;
+ background-size: cover;
+ border-radius: 100%;
+ padding: 15%;
+ outline: 4px solid rgba(66, 138, 30, 0.603);
+ text-align: center;
+ box-shadow: 4px 4px 20px 1px hsla(140, 17%, 70%, 0.677);
+}
+@media screen and (min-width: 320px) {
+  .header{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 1px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+  }
+  .contenedor{ 
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .contenedores{
+   padding: 6rem;
+   background-image: url("https://picsum.photos/200/300");
+   background-repeat: no-repeat;
+   background-position: center ;
+   background-size: cover;
+   border-radius: 100%;
+   padding: 14%;
+   outline: 4px solid rgba(113, 67, 145, 0.603);
+   text-align: center;
+   box-shadow: 4px 4px 20px 1px hsla(290, 33%, 38%, 0.533);
+  }
+}
+@media screen and (min-width: 598px) {
+  .header{
+    color: aliceblue;
+    width: 35%;
+    height: 30px;
+    position: absolute;
+    top: 1rem;
+    left: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+  }
+  .contenedor{ 
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .contenedores{
+   padding: 6rem;
+   background-image: url("https://picsum.photos/200/300");
+   background-repeat: no-repeat;
+   background-position: center ;
+   background-size: cover;
+   border-radius: 100%;
+   padding: 13%;
+   outline: 4px solid rgba(55, 98, 197, 0.603);
+   text-align: center;
+   box-shadow: 4px 4px 20px 1px hsla(195, 47%, 58%, 0.533);
+  }
+}
+@media screen and (min-width: 768px) {
+  .header{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 4rem;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+  }
+  .contenedor{ 
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: .5rem;
+  }
+  .contenedores{
+   padding: 6rem;
+   background-image: url("https://picsum.photos/200/300");
+   background-repeat: no-repeat;
+   background-position: center ;
+   background-size: cover;
+   border-radius: 10%;
+   padding: 12%;
+   outline: 4px solid rgba(11, 39, 198, 0.603);
+   text-align: center;
+   box-shadow: 4px 4px 20px 1px hsla(186, 60%, 64%, 0.533);
+  }
+}
+@media screen and (min-width: 978px) {
+  .header{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 4rem;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+  }
+  .contenedor{ 
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: .5rem;
+  }
+  .contenedores{
+   padding: 6rem;
+   background-image: url("https://picsum.photos/200/300");
+   background-repeat: no-repeat;
+   background-position: center ;
+   background-size: cover;
+   border-radius: 10%;
+   padding: 12%;
+   outline: 4px solid rgba(0, 0, 0, 0.603);
+   text-align: center;
+   box-shadow: 4px 4px 20px 1px hsla(270, 2%, 65%, 0.533);
+  }
+}
+@media screen and (min-width: 1020px) {
+  .header{
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 4rem;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+  }
+  .contenedor{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+  }
+  .contenedores{
+    background-image: url("https://picsum.photos/200");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 12%;
+    outline: 4px solid black;
+    text-align: center;
+    box-shadow: 4px 4px 20px 1px hsla(0, 9%, 85%, 0.533);
+  }
+  .contenedores:hover{
+    transform: scale(.98);
+    transition: transform 1s;
+  }
+}
